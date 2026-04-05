@@ -1,1 +1,11 @@
-# bmota-web-project
+#Bmota-Web-Project
+## Project 2 - HTML Foundation Page
+
+**Theme:**
+My webpage is based on ProDrive VR, a virtual reality driving education platform.
+
+**What I Learned:**
+I learned how to create a basic HTML structure including headings, paragraphs, lists, images, links, and tables. I also learned how to link multiple pages together using navigation and relative file paths.
+
+**Challenges:**
+One challenge I faced was making sure the file paths were correct when linking pages between folders. I also had to learn how to structure HTML properly without using CSS.
