@@ -1,3 +1,98 @@
-<link rel="stylesheet" href="css/styles.css">
-<img src="images/prodrive.jpg" alt="Person using a driving simulator with immersive virtual road display">
-<script src="js/script.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 4 - ProDrive VR</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../html/project2.html">Project 2</a>
+        <a href="project4.html">Project 4</a>
+    </nav>
+
+    <header>
+        <h1>ProDrive VR Driving School</h1>
+        <p>An interactive webpage using HTML, CSS, and JavaScript.</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>About ProDrive</h2>
+            <p>
+                ProDrive is a virtual reality driving education platform that helps new drivers
+                practice before driving on real roads. It provides a safe and realistic way to
+                learn road signs, parking, and traffic situations.
+            </p>
+        </section>
+
+        <section>
+            <h2>Main Features</h2>
+            <ul>
+                <li>Virtual driving lessons</li>
+                <li>AI instructor feedback</li>
+                <li>Realistic road scenarios</li>
+                <li>Custom vehicles and levels</li>
+                <li>Progress tracking through an app</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Why ProDrive Helps</h2>
+            <p>
+                Learning to drive can be stressful. ProDrive allows users to gain confidence
+                by practicing in a virtual environment before going on real roads.
+            </p>
+        </section>
+
+        <section>
+            <h2>Driving Simulator Example</h2>
+            <img src="../images/prodrive.png" alt="Person using a driving simulator with immersive virtual road display">
+            <p>Image used for educational purposes.</p>
+        </section>
+
+        <section>
+            <h2>Try the Interactive Form</h2>
+            <p>
+                Enter your name and a driving skill you want to improve.
+                You will get a personalized message.
+            </p>
+
+            <form id="greetingForm">
+                <label for="name">Your name:</label>
+                <input type="text" id="name" required>
+
+                <label for="goal">Driving skill you want to improve:</label>
+                <input type="text" id="goal" required>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <div id="messageBox"></div>
+        </section>
+
+        <section>
+            <h3>Helpful Driving Resource</h3>
+            <p>
+                Visit the
+                <a href="https://www.nhtsa.gov/road-safety/teen-driving" target="_blank">
+                    NHTSA Teen Driving Safety page
+                </a>
+                to learn more about safe driving habits.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ProDrive VR</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+</html>
