@@ -1,0 +1,125 @@
+body {
+    background-color: #f4f7fb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #222;
+}
+
+nav {
+    background-color: #1d3557;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a8dadc;
+}
+
+header {
+    background-color: #457b9d;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #1d3557;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #e63946;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b71d2a;
+}
+
+#messageBox {
+    display: none;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #d8f3dc;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1d3557;
+    color: white;
+    padding: 15px;
+}
+
+/* Responsive design for phones */
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
