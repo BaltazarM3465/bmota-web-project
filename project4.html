@@ -1,0 +1,3 @@
+<link rel="stylesheet" href="css/styles.css">
+<img src="images/prodrive.jpg" alt="Person using a driving simulator with immersive virtual road display">
+<script src="js/script.js"></script>
